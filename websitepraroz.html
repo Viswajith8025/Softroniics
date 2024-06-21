@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>web</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <style>
+            body {
+            background-image:url(zoro.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 0;
+               }
+               .header{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 14px 20px;
+                background-color: black(.5);
+               }
+
+
+        
+        .header h2 {
+            padding: 25px 40px;
+            color: orangered;
+            font-size: large;
+            margin: 0;
+        }
+        .header ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display:flex;
+        }
+        .header ul li a {
+            color: white;
+            display: block;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        .header li a:hover {
+            background-color: #111;
+        }
+        .search-container{
+            display: flex;
+            align-items: center;
+        }
+        .search-container input[type="text"] {
+            padding: 6px;
+            border: none;
+        }
+        .search-container button {
+            display: flex;
+            padding: 6px 10px;
+            background:orangered;
+            font-size: 17px;
+            border: none;
+            color: aliceblue;
+        }
+        .cnt{
+            display: flex;
+            color: aliceblue;
+            padding: 25px 40px;
+            font-size: xx-large;
+        }
+        .cnt h1{
+            color: orangered;
+        }
+        .cntr {
+            color: aliceblue;
+            padding: 25px 40px;
+            font-size: large;
+    
+    }
+    .form {
+            width: 250px;
+            display: flex;
+            flex-direction:column;
+            background-color: #111;
+            margin-right: 20px;
+            align-items:center;
+            justify-content:flex-end;
+            border-radius: 10px;
+            padding: 0 20px;
+            position:absolute;
+            right:0;
+            top: 50%;
+            transform: translateY(-50%);
+
+        }
+
+        .form a {
+            text-decoration: none;
+            color: orangered;
+        }
+        .links a{
+            padding: 20px;
+        }
+
+        .form input {
+            width: 240px;
+            height: 35px;
+            background: transparent;
+            border-bottom: 1px solid orange;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            font-size: 15px;
+            letter-spacing: 1px;
+            margin-top: 30px;
+            color: violet;
+        }
+    .form i{
+        color: white;
+        display: inline;
+    }
+
+
+        </style>
+</head>
+<body>
+    <nav class="header">
+        <h2>PraRoz</h2>
+        <ul>
+            <li><a href="http://www.google.com">Home</a></li>
+            <li><a href="http://www.google.com">About</a></li>
+            <li><a href="http://www.google.com">Service</a></li>
+            <li><a href="http://www.google.com">Design</a></li>
+            <li><a href="http://www.google.com">Contact</a></li>
+        </ul>
+        <div class="search-container">
+                <input type="text" placeholder="Search..." name="search">
+                <button type="submit">Search</button>
+            </div>
+    </nav>
+    <div class="cnt">
+        <span>Web Design &<br><h1>Development</h1><br>course</span>
+    </div>
+    <div class="cntr">    
+        <p>Web design is a specialisation of the design stream.They also use HTML<br>Css,WYSIWYG editing software, mark up validators etc.,<br>to create design elements.</p>
+    </div>
+    <div class="form">
+        <h2><input type="submit" value="  Login Here  " style="background-color: white; border-radius: 5px;"></h2>
+        <input type="text" placeholder="Enter Email Here">
+        <input type="password" name="" id="" placeholder="Enter password Here">
+        <input type="submit" value="Login" style="border-radius: 5px; background-color: orange;">
+        <p style="color: white; text-align: center;">Don't have an account? <br> <a href="#"> Sign Up</a> here </p>
+
+        <p style="color: white; text-align: center;"> Log in with</p>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-google"></i>
+        <i class="fa-brands fa-skype"></i>
+    </div>
+    
+</body>
+</html>
