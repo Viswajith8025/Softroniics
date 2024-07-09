@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: linear-gradient(rgb(236, 114, 114),rgb(235, 190, 190));
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            margin-bottom: 0px;
+        }
+        .col a{
+            text-decoration: none;
+            color: white;
+            width: 100%;
+            
+        }
+        .col{
+            background-color: rgb(163, 29, 15);
+            width: 12%;
+            height: 640px;
+            border-radius: 10px 0 0 10px;
+
+            /* padding-left: 20px; */
+            /* line-height: 50px; */
+        }
+        .col2{
+            /* padding-left: 25px; */
+            line-height:70px;
+
+        }
+        .col2 a{
+            display: inline-block;
+            padding-left: 20%;
+            /* background-color: aqua */
+        }
+        .bdy{
+            /* border: 1px solid red; */
+            width: 88%;
+        }
+        .nav{
+            display: flex;
+            /* border: 1px solid green; */
+ 
+            /* flex-wrap: wrap; */
+            background-color: white;
+            border-radius: 0 10px 0 0;
+            /* z-index: 1; */
+            box-shadow: 0px 10px 18px #888888;
+            margin-bottom: 3px;
+        }
+        .srch{
+            border-top: 4px solid rgb(183, 181, 181);
+            height: 20px;
+            width: 300px;
+            margin: 8px;
+            padding: 20px;
+            margin-left: 400px;
+            background-color: rgb(183, 181, 181);
+        }
+        .mainrow{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .row{
+            background-color: white;
+            /* border: 1px solid gold; */
+            width: 20%;
+            height: 120px;
+            margin: 40px 30px 40px 30px ;
+            box-shadow: 5px 10px 18px #888888;
+        }
+
+        .sub{
+            height: 300px;
+            width: 70%;
+            /* border: 1px solid black; */
+            margin-left: 30px;
+            box-shadow: 5px 10px 18px #888888;
+        }
+        .sub1,.hub1{
+            /* border: 1px solid blue; */
+            width: 100%;
+            padding: 5px 0 5px 0;
+        }
+        .sub1,.sub2,.hub1,.hub2{
+            background-color: white;
+        }
+
+        table{
+            width: 100%;
+            text-align: left;
+            line-height: 30px;
+            padding-left: 10px;
+        }
+        button{
+            background-color: rgb(163, 29, 15);
+            border: none;
+            color: aliceblue;
+        }
+        .hub{
+            /* border: 1px solid green; */
+            margin-right: 30px;
+            width: 20%;
+            margin-left: 50px;
+            box-shadow: 5px 10px 18px #888888;
+            flex-wrap: wrap;
+            
+        }
+        .sub2,.hub2{
+            height: 100%;
+            margin-top: 4px;
+        }
+
+        .col2 a:hover{
+            background-color: white;
+            color: rgb(163, 29, 15);
+        }
+        /* .hub1{
+            width: 250px;
+        } */
+        /* th{
+            text-align: left;
+        } */
+    </style>
+</head>
+<body>
+    <div style="display: flex;margin: 50px;">
+        <div class="col">
+            <div style="text-align: center;height: 40px;">
+                <h3><b>Brand</b></h3>
+            </div>
+
+
+            <div class="col2">
+                <a href="a"><i class="bi bi-bookmark"></i>   Dashboard</a><br>
+                <a href="b"><i class="bi bi-people-fill"></i>   Students</a><br>
+                <a href="c"><i class="bi bi-journal-medical"></i>   Teachers</a><br>
+                <a href="d"><i class="bi bi-bookshelf"></i>   Schools</a><br>
+                <a href="e"><i class="bi bi-book"></i>   Income</a><br>
+                <a href="f"><i class="bi bi-question-circle-fill"></i>   Help</a><br>
+                <a href="g"><i class="bi bi-gear-fill"></i>   Settings</a><br>
+            </div>
+        </div>
+
+        <div class="bdy">
+
+            <div class="nav">
+                <div class="srch">
+                    <input type="text" placeholder="search" style="width: 270px;border: none;background: none  ;">
+                    <i class="fa-solid fa-magnifying-glass" ></i>
+                </div>
+                <div style="margin-top: 5px;padding: 0 10px 0 300px;">
+                    <input type="submit" value="Add New" style= "color: white; margin-right: 30px;background-color: brown;border:5px solid brown;">
+                    <i class="bi bi-bell-fill " style="margin-right: 30px; font-size: 25px;"></i>
+                    <i class="bi bi-person-circle" style="background-color: rgb(17, 71, 152);border-radius: 50%;font-size: 25px;"></i>
+                </div>
+            </div>
+
+            <div style="background-color:rgb(243, 230, 230);height: 557px;border-radius: 0 0 10px 0;">
+
+                <div class="mainrow">
+                    <div class="row" style="display: flex;">
+                        <div style="width: 75%;padding: 30px 0 0 15px;">
+                            <b style="font-size: 30px;">2194</b><br>Students
+                        </div>
+                        <div style="width: 25%;">
+                            <img src="zoro.jpg" alt="img" style="height: 40px;width: 40px;padding-top: 40px;">
+                        </div>
+                    </div>
+                    <div class="row" style="display: flex;">
+                        <div style="width: 75%;padding: 30px 0 0 15px;">
+                            <b style="font-size: 30px;">53</b><br>Teachers
+                        </div>
+                        <div style="width: 25%;">
+                            <img src="zoro.jpg" alt="img" style="height: 40px;width: 40px;padding-top: 40px;">
+                        </div>
+                    </div>
+                    <div class="row" style="display: flex;">
+                        <div style="width: 75%;padding: 30px 0 0 15px;">
+                            <b style="font-size: 30px;">5</b><br>Schools
+                        </div>
+                        <div style="width: 25%;">
+                            <img src="zoro.jpg" alt="img" style="height: 40px;width: 40px;padding-top: 40px;">
+                        </div>
+                    </div>
+                    <div class="row" style="display: flex;">
+                        <div style="width: 75%;padding: 30px 0 0 15px;">
+                            <b style="font-size: 30px;">350000</b><br>Income
+                        </div>
+                        <div style="width: 25%;">
+                            <img src="zoro.jpg" alt="img" style="height: 40px;width: 40px;padding-top: 40px;">
+                        </div>
+                    </div>
+                </div>
+
+                <div style="display: flex;">
+                    <div class="sub">
+                        <div class="sub1">
+                            <b style="font-size: 35px;padding: 0 390px 0 125px;">Recent Payments </b><button style="font-size: 20px"height: 26px;">View All  </button>
+
+                        </div>
+                        <div class="sub2">
+                            <table>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>School</th>
+                                    <th>Amount</th>
+                                    <th>Option</th>
+                                </tr>
+                                <tr>
+                                    <td>John Doe</td>
+                                    <td>St.James College</td>
+                                    <td>$120</td>
+                                    <td><button>View</button></td>
+                            
+                                </tr>
+                                <tr>
+                                    <td>John Doe</td>
+                                    <td>St.James College</td>
+                                    <td>$120</td>
+                                    <td><button>View</button></td>
+                                </tr>
+                                <tr>
+                                    <td>John Doe</td>
+                                    <td>St.James College</td>
+                                    <td>$120</td>
+                                    <td><button>View</button></td>
+                                </tr>
+                                <tr>
+                                    <td>John Doe</td>
+                                    <td>St.James College</td>
+                                    <td>$120</td>
+                                    <td><button>View</button></td>
+                                </tr>
+                                <tr>
+                                    <td>John Doe</td>
+                                    <td>St.James College</td>
+                                    <td>$120</td>
+                                    <td><button>View</button></td>
+                                </tr>
+                                <tr>
+                                    <td>John Doe</td>
+                                    <td>St.James College</td>
+                                    <td>$120</td>
+                                    <td><button>View</button></td>
+                                </tr>
+                            </table>
+                        </div>
+
+                    </div>
+
+                    <div class="hub">
+                        <div class="hub1">
+                            <b style="font-size: 20px;padding: 0 50px 0 10px;">New Students</b><button style="font-size: 20px""height: 26px;">View All</button>
+                        </div>
+                        <div class="hub2">
+                            <table style="line-height: 40px;">
+                                <tr>
+                                    <th>Profile</th>
+                                    <th>Name</th>
+                                    <th>Option</th>
+                                </tr>
+                                <tr>
+                                    <td><img src="zoro.jpg" alt="img" style="height: 30px;width: 30px;border-radius: 50%;"></td>
+                                    <td>John Steve Doe</td>
+                                    <td><i class="bi bi-chat-square"></i></td>
+                                    
+                                </tr>
+                                <tr>
+                                    <td><img src="zoro.jpg" alt="img" style="height: 30px;width: 30px;border-radius: 50%;"></td>
+                                    <td>John Steve Doe</td>
+                                    <td><i class="bi bi-chat-square"></i></td>
+                                </tr>
+                                <tr>
+                                    <td><img src="zoro.jpg" alt="img" style="height: 30px;width: 30px;border-radius: 50%;"></td>
+                                    <td>John Steve Doe</td>
+                                    <td><i class="bi bi-chat-square"></i></td>
+                                </tr>
+                                <tr>
+                                    <td><img src="zoro.jpg" alt="img" style="height: 30px;width: 30px;border-radius: 50%;"></td>
+                                    <td>John Steve Doe</td>
+                                    <td><i class="bi bi-chat-square"></i></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

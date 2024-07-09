@@ -1,0 +1,23 @@
+body {
+    background-color: #343a40;
+    color: #fff;
+}
+.navbar {
+    margin-bottom: 20px;
+}
+.card {
+    background-color: #212529;
+}
+.card img {
+    object-fit: cover;
+    height: 180px;
+}
+.card-body {
+    padding: 30px;
+}
+.card-title, .card-text {
+    color: #fff;
+}
+.search-bar {
+    width: 300px;
+}

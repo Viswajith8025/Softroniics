@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Report</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #0e1021;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 800px;
+}
+
+/* Left section */
+.profile {
+    background-color: #3645a7;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+    min-width: 200px;
+    text-align: center;
+}
+
+.profile img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.profile h2 {
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+.profile nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+.profile nav a:hover {
+    text-decoration: underline;
+}
+
+/* Right section */
+.card {
+    background-color: #141937;
+    border-radius: 10px;
+    padding: 20px;
+    flex: 1;
+    min-width: 200px;
+    position: relative;
+}
+
+.card .title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card .hours {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.card .previous {
+    font-size: 16px;
+    color: #aaa;
+}
+
+.card .more {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    color: #aaa;
+}
+
+/* Colors for cards */
+.card.work {
+    background-color: #ff8c00;
+}
+
+.card.play {
+    background-color: #1fb8ff;
+}
+
+.card.study {
+    background-color: #ff4b5c;
+}
+
+.card.exercise {
+    background-color: #1fd56f;
+}
+
+.card.social {
+    background-color: #8a56ac;
+}
+
+.card.selfcare {
+    background-color: #ffe600;
+}
+</style>
+    <div class="container">
+        <div class="profile">
+            <img src="path/to/profile.jpg" alt="Jeremy Robson">
+            <h2>Jeremy Robson</h2>
+            <nav>
+                <a href="#">Daily</a>
+                <a href="#">Weekly</a>
+                <a href="#">Monthly</a>
+            </nav>
+        </div>
+        <div class="card work">
+            <div class="more">...</div>
+            <div class="title">Work</div>
+            <div class="hours">32hrs</div>
+            <div class="previous">Last Week: 36hrs</div>
+        </div>
+        <div class="card play">
+            <div class="more">...</div>
+            <div class="title">Play</div>
+            <div class="hours">10hrs</div>
+            <div class="previous">Last Week: 8hrs</div>
+        </div>
+        <div class="card study">
+            <div class="more">...</div>
+            <div class="title">Study</div>
+            <div class="hours">4hrs</div>
+            <div class="previous">Last Week: 7hrs</div>
+        </div>
+        <div class="card exercise">
+            <div class="more">...</div>
+            <div class="title">Exercise</div>
+            <div class="hours">4hrs</div>
+            <div class="previous">Last Week: 5hrs</div>
+        </div>
+        <div class="card social">
+            <div class="more">...</div>
+            <div class="title">Social</div>
+            <div class="hours">5hrs</div>
+            <div class="previous">Last Week: 10hrs</div>
+        </div>
+        <div class="card selfcare">
+            <div class="more">...</div>
+            <div class="title">Self Care</div>
+            <div class="hours">2hrs</div>
+            <div class="previous">Last Week: 2hrs</div>
+        </div>
+    </div>
+</body>
+</html>
+
+    
