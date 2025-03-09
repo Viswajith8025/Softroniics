@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pattern</title>
+</head>
+<body>
+    <script>function main() {
+        let rows;
+        
+        rows = parseInt(prompt("Enter the number of rows: "));
+        
+        for (let i = 1; i <= rows; i++) {
+            let result = ' ';
+            
+            for (let s = 0; s < rows - i; s++) {
+            result += ' '; 
+        }
+
+            for (let j = 0; j < i; j++) {
+                result += String.fromCharCode('A'.charCodeAt(0) + j) + ' ';
+            }
+            
+            console.log(result); 
+        }
+    }
+    
+    
+    main();
+    </script>
+</body>
+</html>

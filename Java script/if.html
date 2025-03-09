@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2> if </h2>
+
+<p>Greetings</p>
+
+<p id="demo">Good Evening!</p>
+
+<script>
+if (new Date().getHours() < 18) {
+  document.getElementById("demo").innerHTML = "Good day!";
+}
+if(new Date().getHours()>18){
+    document.getElementById("demo").innerHTML ="Bad day!";
+}
+</script>
+
+</body>
+</html>

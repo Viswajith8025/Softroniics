@@ -1,0 +1,242 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f5f5;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  main {
+    flex-grow: 1;
+    padding: 30px 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .invoice-box {
+    background-color: white;
+    border-radius: 0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border: 3px solid #333;
+    margin-bottom: 15px;
+  }
+  
+  .invoice-header {
+    padding: 20px;
+    border-bottom: 3px solid #333;
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .invoice-title {
+    margin-bottom: 10px;
+  }
+  
+  .invoice-title h2 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-top: 0;
+  }
+  
+  .invoice-header address {
+    color: #666;
+    font-size: 12px;
+    font-style: normal;
+    line-height: 1.4;
+  }
+  
+  .invoice-right {
+    text-align: right;
+  }
+  
+  .invoice-right h1 {
+    font-size: 24px;
+    font-weight: normal;
+    color: #333;
+    margin: 0;
+  }
+  
+  .invoice-details {
+    background-color: white;
+    border-bottom: 3px solid #333;
+  }
+  
+  .details-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .invoice-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-right: 3px solid #333;
+    font-size: 12px;
+  }
+  
+  .info-item {
+    border-bottom: 3px solid #333;
+    padding: 8px 10px;
+  }
+  
+  .info-item:nth-child(odd) {
+    border-right: 3px solid #333;
+  }
+  
+  .info-item span:first-child {
+    color: #666;
+  }
+  
+  .address-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .address {
+    padding: 10px;
+    font-size: 12px;
+    border-right: 3px solid #333;
+  }
+  
+  .address:last-child {
+    border-right: none;
+  }
+  
+  .address-title {
+    color: #666;
+    margin-bottom: 5px;
+  }
+  
+  .address address {
+    color: #333;
+    font-style: normal;
+    line-height: 1.4;
+  }
+  
+  .invoice-items {
+    padding: 0;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12px;
+    border: 3px solid #333;
+  }
+  
+  th {
+    text-align: left;
+    padding: 8px 10px;
+    background-color: #333;
+    color: white;
+    font-size: 11px;
+    font-weight: 500;
+    text-transform: none;
+    border-right: 3px solid #555;
+  }
+  
+  th:last-child {
+    border-right: none;
+  }
+  
+  th:first-child {
+    width: 30px;
+  }
+  
+  th:nth-child(3), th:nth-child(4), th:nth-child(5) {
+    text-align: right;
+  }
+  
+  td {
+    padding: 10px;
+    border-bottom: 3px solid #333;
+    border-right: 3px solid #333;
+    vertical-align: top;
+  }
+  
+  td:last-child {
+    border-right: none;
+  }
+  
+  td.center {
+    text-align: center;
+  }
+  
+  td.right {
+    text-align: right;
+  }
+  
+  .item-description {
+    font-size: 11px;
+    color: #777;
+    display: block;
+    margin-top: 3px;
+  }
+  
+  .invoice-summary {
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    border-top: 3px solid #333;
+  }
+  
+  .thanks {
+    width: 60%;
+    font-size: 12px;
+  }
+  
+  .thanks h3 {
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+  
+  .thanks p {
+    margin: 0 0 10px 0;
+  }
+  
+  .summary-box {
+    width: 35%;
+    font-size: 12px;
+    border: 3px solid #333;
+    padding: 10px;
+  }
+  
+  .summary-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+  }
+  
+ 
+  
+  .summary-row span {
+    color: #333;
+  }
+  
+  .summary-row span:first-child {
+    color: #666;
+  }
+  
+  .summary-row.balance-due {
+   
+    padding-top: 8px;
+    margin-top: 5px;
+    font-weight: bold;
+  }

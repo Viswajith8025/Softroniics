@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array rotate</title>
+</head>
+
+<body>
+    <p id="def"></p>
+    <p id="rotnum"></p>
+    <p id="rot"></p>
+    <p id="min"></p>
+    <script>
+        var nums = [0, 1, 2, 4, 5, 6, 7]
+        document.getElementById("def").innerHTML = "Given Array = " + nums;
+        const rotate = parseInt(prompt("Enter No of Rotations"))
+        document.getElementById("rotnum").innerHTML = "Rotated " + rotate + " Times";
+        if (rotate > nums.length / 2) {
+            var halfrot = nums.splice(0, rotate - 1)
+        }
+        else {
+            var halfrot = nums.splice(0, rotate)
+        }
+        var fullrot = nums.concat(halfrot)
+        console.log("rotated " + fullrot);
+
+        let min = fullrot.reduce((a, b) => a < b ? a : b)
+        document.getElementById("rot").innerHTML = "Rotated Array = " + fullrot;
+
+        console.log("minimum =" + min);
+        document.getElementById("min").innerHTML = "Minimum Value = " + min;
+    </script>
+</body>
+
+</html>

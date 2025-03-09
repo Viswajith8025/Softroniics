@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const num = parseInt(prompt("Enter a number:"));
+      let temp = num;
+      let count = 0;
+      let sum = 0;
+      count = num.toString().length;
+      temp = num;
+      while (temp > 0) {
+        const dig = temp % 10;
+        sum += Math.pow(dig, count--);
+        temp = Math.floor(temp / 10);
+      }
+      if (sum == num) {
+        alert("it is a disarium number");
+      } else {
+        alert("it is not a disarium number");
+      }
+    </script>
+  </body>
+</html>
